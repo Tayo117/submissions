@@ -27,4 +27,6 @@
     activate server
     server-->>browser: 201 Created
     deactivate server
+
+   Note right of browser: server does not request redirect and browser stays on the current page without sending a HTTP request
 ```
