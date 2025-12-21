@@ -1,5 +1,4 @@
 const Notification = ({ message }) => {
-    console.log(message, "ITS NO SACRIFICE")
     if (message === null) {
         return null
     }
